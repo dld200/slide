@@ -78,7 +78,7 @@ const App: React.FC = () => {
 
   return (
     <div
-      className="w-screen h-h-[100dvh] bg-presentation-bg text-presentation-text flex flex-col relative touch-pan-y"
+      className="w-screen h-[100dvh] bg-presentation-bg text-presentation-text flex flex-col relative touch-pan-y"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}

@@ -25,14 +25,15 @@ export const TitleSlide: React.FC<SlideProps> = ({ isActive }) => {
         A team where humans collaborate with AI
       </p>
 
-      <div className="mt-16 flex flex-col gap-2 text-sm text-slate-500 font-mono">
+      <div className="mt-16 flex flex-col gap-4 text-sm text-slate-500 font-mono">
         <div className="flex items-center justify-center gap-2">
-          <Sparkles size={16} />
-          <span>Now: AI enhances tools.</span>
+          <span>Now: AI coding brings quality risks</span>
         </div>
         <div className="flex items-center justify-center gap-2">
-          <Cpu size={16} />
-          <span>Future: AI uses tools.</span>
+          <span>Next: AI empowers testing tools</span>
+        </div>
+        <div className="flex items-center justify-center gap-2">
+          <span>Future: AI Tester Beats AI Coding</span>
         </div>
       </div>
     </div>
