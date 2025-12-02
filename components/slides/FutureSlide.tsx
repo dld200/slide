@@ -64,9 +64,9 @@ export const FutureSlide: React.FC<SlideProps> = ({ isActive }) => {
           <div className="w-20 h-20 bg-slate-800 rounded-full flex items-center justify-center border-2 border-slate-600 group-hover:border-blue-400 transition-all z-10 group-hover:scale-110">
             <Code size={30} className="text-blue-400" />
           </div>
-          <h3 className="mt-1 text-sm font-bold text-white">Business Logic</h3>
+          <h3 className="mt-1 text-sm font-bold text-white">AI Knowledge</h3>
           <p className="text-[10px] text-slate-400 mt-1 px-1 leading-tight">
-            Input Business Rules
+            Understand Business Logic
           </p>
         </div>
 
